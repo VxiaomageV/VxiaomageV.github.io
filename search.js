@@ -11,46 +11,81 @@ api[0].list.push({
     desc: '测试',
 });
 api.push({
-    alias: 'FileController',
+    alias: 'MessageController',
     order: '2',
-    link: '',
-    desc: '',
+    link: '资讯表_前端控制器',
+    desc: '资讯表 前端控制器',
     list: []
 })
 api[1].list.push({
     order: '1',
-    desc: '',
+    desc: '保存文件信息',
 });
 api[1].list.push({
     order: '2',
-    desc: '获取单个文件信息',
+    desc: '获取文件列表',
 });
 api[1].list.push({
     order: '3',
+    desc: '获取单个文件信息',
+});
+api[1].list.push({
+    order: '4',
     desc: '删除文件',
 });
 api.push({
-    alias: 'UserController',
+    alias: 'FileController',
     order: '3',
+    link: '文件处理',
+    desc: '文件处理',
+    list: []
+})
+api[2].list.push({
+    order: '1',
+    desc: '上传文件接口',
+});
+api[2].list.push({
+    order: '2',
+    desc: '保存文件信息',
+});
+api[2].list.push({
+    order: '3',
+    desc: '获取文件列表',
+});
+api[2].list.push({
+    order: '4',
+    desc: '获取单个文件信息',
+});
+api[2].list.push({
+    order: '5',
+    desc: '删除文件',
+});
+api[2].list.push({
+    order: '6',
+    desc: '首页汇总',
+});
+api.push({
+    alias: 'UserController',
+    order: '4',
     link: '用户管理',
     desc: '用户管理',
     list: []
 })
-api[2].list.push({
+api[3].list.push({
     order: '1',
     desc: '获取用户信息',
 });
-api[2].list.push({
+api[3].list.push({
     order: '2',
     desc: '登录',
 });
-api[2].list.push({
+api[3].list.push({
     order: '3',
     desc: '注册用户',
 });
 api.push({
     alias: 'dict',
-    order: '4',
+    order: '5',
     link: 'dict_list',
     desc: '数据字典',
     list: []
